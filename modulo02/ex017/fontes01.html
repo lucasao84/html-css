@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        body { /* ('Courier New', Courier, monospace;)Deixa a fonte monoespassada*/
+        /*Medidas absolutas 
+        cm,mm,in,px,pt,pc
+        
+        Medidas relativas
+
+        em, ex , rem , viu , vh, % 
+        
+
+        uso re comendado ( px e em )
+        
+
+        geralmente o tamanho nomal da fonte de 16px
+        16px = 1em
+        */
+
+            /*Esse tipo de declaraçao e muito importante*/
+            font-family: Arial, Helvetica, sans-serif;
+            /*tamanho da fonte*/  /*16px = 1em */
+            font-size: 1em;
+            /*font-weight significa peso da fonte*/
+
+            font-weight: bolder;     /*fonte usada para texto negrito*/
+            font-style: italic;      /* fonte usada para colocar o texto em italico */
+            text-decoration: underline; /*Deixa o texto sublinhado*/
+        }
+
+
+        h1 { /*shorthand font
+            font-style => font-weight => font-size => font-family
+            
+            
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+           */
+
+           font: italic, 3em, bolder,'work Sans', sans-serif
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1> Trabalhando com fontes </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, quos. A voluptates incidunt placeat quisquam in eveniet? Reprehenderit alias, perspiciatis quam debitis error iste dolorum laudantium fuga animi delectus velit.</p>
+    <h2>sub titulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, asperiores. Dignissimos, doloribus magni? Corrupti sequi provident maiores impedit commodi quos earum deserunt nemo incidunt pariatur! Natus commodi veritatis atque corrupti?</p>
+    
+</body>
+</html>
