@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente almente e diminua o tamanho do seu navegador </p>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/P.png">  <!--MEDIA GRANDE (700PX)-->
+        <source media="(max-width: 1000px)" srcset="imagens/M.png"> <!--IMAGEM MEDIA (1000PX)-->
+        <img src="imagens/G.png" alt="imagem flexivel"> <!-- RENDIMENÇIONAR PRIMEIRA IMAGEM PEQUENA-->
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+    <audio preload="metadata" controls loop> <!--TAG <AUDIO>  (USADA PARA ADCIONAR UM AUDIO)-->  <!--MP3 WAV OGG (SAO OUTRAS FORMAS DE ADICIONAR AUDIO)-->
+        <!--E PARA FAZER UM LOP APOS UM TERMINO DE UM AUDIO ACRESCENTAMOS O PARAMENTRO LOOP-->
+       <source src="midia/happy-mistake.mp3" type="audio/mpeg"><source>
+       <source src="midia/happy-mistake.ogg" type="audio/ogg"><source>
+       <source src="midia/happy-mistake.wav" type="audio/wav"><source>  <!-- WAV NAO E INDICADO PARA ACRESCENTA EM SITE -->
+    
+       </audio>
+       <p>Infelizmente seu navegador nao consegue reproduzir audio <a href="./midia/happy-mistake.mp3" download="midia/happy-mistake.mp3" type="aplication/audio">clique aqui</a> baixar o arquivo mp3</p>
+</body>
+</html>
