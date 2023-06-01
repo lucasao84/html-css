@@ -1,0 +1,18 @@
+
+body {
+    text-align: center;
+    margin: auto;
+}
+.quadro {
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    background-image: url('imagem/342545398_258972239885726_3021410247943339000_n\ \(1\).jpg');
+}
+
+#q2 
+{
+    background-position: center top;
+    left: 50%;
+}
