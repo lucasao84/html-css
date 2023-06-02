@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'One';
+    src: url(fontes/passion\ one/PassionOne-Bold.ttf)format('opentype');
+}
+
+@font-face {
+    font-family: 'saricha' ;
+    src: url(fontes/saricha/Sriracha-Regular.ttf) format('opentype');
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'One';
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    
+    padding: 40px;
+    line-height: 2em;
+    font-size: 3.3vw;
+}
+section p {
+    font-family: 'saricha';
+ 
+
+}
+
+.imagem {
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    
+    
+
+
+}
+
+.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+#img1 {
+    background-image: url(imagem/pexels-roman-biernacki-15856912.jpg);
+    background-color: black;
+    
+}
+#img2 {
+    background-image: url(imagem/pexels-sami-aksu-16949307.jpg);
+}
