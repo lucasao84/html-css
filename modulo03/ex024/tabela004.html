@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+
+    th , td { 
+        border: 1px solid black;
+        padding: 10px;
+
+    }
+</style>
+<body>
+    <h1>Exercios de tabela</h1>
+
+    <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
+            <tr>
+                <th>grupos</th>
+                <th>nomes</th>
+                <th colspan="3" scope="colgroup">filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>ana mariasantos</td>
+                <td>alien</td>
+                <td>rambo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>beatris</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia melo</td>
+                <td>obvion</td>
+                <td>Matrix</td>
+                <td>Big hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">
+                    Homens
+                </th>
+                <td>Bruno mendoça</td>
+                <td>Intocaveis</td>
+                <td>aminesia</td>
+                <td>Gladiador</td>
+                 <tr>
+                    <td>daniel lourenço</td>
+                    <td>wall-e</td>
+                     <td>oldboy</td>
+                     <td>gangal</td>
+                     <tr>
+                        <td>fabiano mota</td>
+                        <td>stawns wans</td>
+                        <td>Taxi draver</td>
+                        <td>Toy story</td>
+                     </tr>
+                 </tr>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

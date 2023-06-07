@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+     
+     table { 
+        width: 20px;
+        border-collapse: collapse;
+     }
+
+     tr > th , td {
+        border: 1px solid black;
+        padding: 10px;
+        
+     }
+
+     .cor {
+        background-color: gray;
+        color: white;
+        font-size: 20px ; }
+
+        #canto01
+
+        {
+            text-align: left;
+        }
+
+        #canto02 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr class="cor">
+            <th rowspan="2"> Area</th>
+            <th rowspan="2">Displina</th>
+            <th colspan="2">Notas</th>
+            <th rowspan="2">media</th>
+            <tr class="cor"><th>nota1</th>
+            <th>nota2</th></tr>
+            
+          </tr>
+        
+        <tbody>
+            <tr>
+                <th rowspan="4">Extra</th>
+                <td colspan>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="cor" id="canto02">
+                <th colspan="4" >Media da exaltas</th>
+              <td>0.0</td>
+
+              <tr>
+                <th rowspan="2">Humana</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+              </tr>
+
+              <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+              </tr>
+
+              <tr class="cor">
+                <th colspan="4" id="canto01">Media humana</th>
+                <td>0.0</td>
+
+              </tr>
+        </tbody>
+    </table>
+</body>
+</html>
