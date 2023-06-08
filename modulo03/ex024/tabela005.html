@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabela</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            padding: 8px;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+        table
+        {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+ 
+     .cnome {
+        background-color: yellowgreen;
+     }
+     .csex {
+        background-color: aquamarine;
+     }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        
+        <colgroup>
+                 
+            <col class="cnome">
+            <col class="csex">
+            <col class="cidade">
+            <col class="cpro">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th> 
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td> F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio santos</td>
+            <td>M</td>
+            <td>23</td>
+            <td>programador</td>
+
+            <tr>
+                <td>Aline souza</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Modelo</td>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Modelo</td>
+            </tr>
+            <tr>
+                <td>Geovane</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Mecanico</td>
+            </tr>
+        </tr>
+    </table>
+</body>
+</html>
