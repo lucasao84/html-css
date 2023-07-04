@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PRATICANDO FORM</h1>
+    <main>
+        <form action="cadastro.php.html" method="post" autocomplete="off">
+            <p>
+                <label for="iusu">Usuario: </label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="senha do usuario" autocomplete="username">
+            </p>
+             <p>
+                 <label for="isen">Senha:</label>
+                 <input type="password" name="senha" id="isen" required minlength="5" placeholder="min 8 digitos" autocomplete="new-password">
+             </p>
+             <p>
+                <input type="submit" value="Envia">
+                <input type="reset" value="Limpar">
+             </p>
+        </form>
+    </main>
+    
+</body>
+</html>
