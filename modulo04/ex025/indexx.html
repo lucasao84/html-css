@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Exemplo de formulario</legend>
+        <label for="icidade">CIDADES</label>
+        <input type="text" name="cidade" id="icidade" list="city">
+        <datalist id="city">
+          
+          <option>VALE DO PARAISO</option>
+          <option>OURO PRETO</option>
+          <option>JI-PARANA</option>
+          <option>VALE DO ANARI</option>
+          
+        </datalist>
+    </fieldset>
+<form action="cadastro.php" method="post">
+     
+     <p>
+       <label for="isel">Cidades</label>
+       <select name="sel" id="isel">
+        <optgroup label="Cidade do norte">
+            <option value="" selected> == escolha ==</option>
+            <option>Vale do paraiso</option>
+            <option>Ouro preto</option>
+            <option>Santa rosa</option>
+            <option>Rolim de moura</option>
+        </optgroup>
+       </select>
+     </p>
+     
+     <p>
+        <label for="ifoto">Escolha a imagem do seu perfil: </label>
+        <input type="file" name="foto" id="ifoto">
+     </p>
+
+    <p>
+        <input type="submit" value="Envia">
+        <input type="reset" value="Limpar">
+    </p>
+
+
+</form>
+
+</body>
+</html>
