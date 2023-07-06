@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+
+        body {
+            position: relative;
+            height: 70vh;
+
+            background-color: aquamarine;
+            
+        }
+       
+        
+      
+
+        fieldset {
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px black ;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border-radius: 10px;
+            
+        }
+
+        @media only screen and (max-width: 600px) {
+  fieldset {
+    width: 90%;
+  } }
+
+       p {
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <fieldset>
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="imail">E-mail:</label>
+                    <input type="email" name="email" id="imail" required placeholder="Digite seu E-mail" autocomplete="email">
+                </p>
+                <p>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" required minlength="5" placeholder="min 5 digitos..." autocomplete="new-password">
+                </p>
+                 <p>
+                     <label for="entra"></label>
+                                 <button type="submit" id="entra"> Login</button>
+                                 <input type="reset" value="Limpar">
+                 </p>
+            </form>
+    </main>
+
+    </fieldset>
+</body>
+</html>

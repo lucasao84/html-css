@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de conhecimento HTML</h1>
+<form action="cadastro.php" method="post">
+    <P>
+        <label for="inumero">Numero</label>
+        <input type="range" name="numero" id="inumero" min="0" max="50" oninput="resultado.innerHTML= Number(inumero.value)">
+        <output id="resultado">25</output>
+    </P>
+
+    
+
+</form>
+
+<h1>DATA DE NASCIMENTO</h1>
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="idade">Qual ano de nascimento</label>
+            <input type="number" name="ano" id="idade" min="1990" oninput="iano.innerHTML= Number(2023) - Number(idade.value)"> 
+        </p>
+        <p>
+            <label for="iano">idade: </label>
+            <output id="iano">0</output>
+        </p>
+
+        <p><input type="submit" value="Envia">
+        <input type="reset" value="Limpar"></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando idade</title>
+</head>
+<body>
+    <h1>TESTE DE CONHECIMENTO</h1>
+    <form action="cadastro.php" method="post">
+
+      <p>
+        <label for="idade">Ano de nascimento: </label>
+        <input type="number" name="idade" id="idade" min="1900" oninput="Calculo()">
+      </p>
+
+      <p>
+        <label for="resul"> Idade: </label>
+        <output id="resul">0</output>
+      </p>
+      
+      <p>
+        <input type="submit" value="Envia">
+        <input type="reset" value="Limpar">
+      </p>
+    </form>
+
+    <script>
+
+
+
+        function Calculo() {
+
+          var atual = new Date(). getFullYear()
+            resul.innerHTML = Number(atual) - Number(idade.value)
+        }
+    </script>
+</body>
+</html>
