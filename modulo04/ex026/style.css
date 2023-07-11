@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media all {
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    
+} 
+
+html, body {
+
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+}
+
+@media  screen and (orientation: portrait) {
+    body {
+        background-image: url(mq003/retrato.jpg);
+        background-position: center center;
+        background-color: black;
+    }
+}
+
+
+@media screen and (orientation: landscape) {
+body {
+    background-image: url(mq003/paisagem.jpg);
+    background-position: top bottom;
+}
+}
