@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px ;
+}
+
+main {
+   
+    padding: 10px;
+   background-color: aqua;
+   width: 40vw;
+   text-align: center;
+   margin: auto;
+   border-radius: 10px;
+   box-shadow: 3px 3px 5px black;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+
+}
+
+p {
+    padding: 5px;
+
+}
+
+input { 
+padding: 2px;
+}
+
+#itens {
+    display: none;
+}
+
+#logo {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    
+}
+
+#logo:hover {
+   
+    
+    cursor: pointer;
+   
+    
+}
